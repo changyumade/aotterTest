@@ -1,0 +1,9 @@
+import Foundation
+import UIKit
+
+var borderLineColor = UIColor(red: 0xAA/0xFF, green: 0xAA/0xFF, blue: 0xAA/0xFF, alpha: 1)
+var imageBorderColor = UIColor(red: 0x00/0xFF, green: 0x88/0xFF, blue: 0x88/0xFF, alpha: 1)
+var navigationBarColor = UIColor(red: 0x00/0xFF, green: 0xFF/0xFF, blue: 0xCC/0xFF, alpha: 1)
+var headerColor = UIColor(red: 0xDD/0xFF, green: 0xDD/0xFF, blue: 0xDD/0xFF, alpha: 1)
+var fontColor = UIColor.black
+var viewBackgroundColor = UIColor.white
