@@ -172,7 +172,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 DispatchQueue.global().async {
                     do{
                         let musicImageData = try Data(contentsOf: musicImageUrl)
-                        DispatchQueue.main.async {
+                        DispatchQueue.main.sync {
                             let imageToCache = UIImage(data: musicImageData)
                             imageCache.setObject(imageToCache!, forKey: musicImageUrl as AnyObject)
                             musicCell.infoImage.image = imageToCache
